@@ -22,3 +22,5 @@ crontab -l
 
 sudo nginx -t
 systemctl restart nginx
+
+grep CRON /var/log/syslog > cronlog.txt

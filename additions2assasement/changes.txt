@@ -1,0 +1,7 @@
+/etc/nginx/sites-available/default
+delete root /var/www/html;
+add    /home/usr/material-design-template/www;
+
+/etc/nginx/nginx.conf
+delete user www-data;
+add    user usr; ( to prevent "/home/usr/material-design-template/www/" failed (13: Permission denied) )
