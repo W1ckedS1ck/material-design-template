@@ -128,7 +128,7 @@ go to Manage Jenkins - Manage Plugins and make sure that SSH server plugin is in
 
 If it’s not - press on Available tabs and do this now.
 
-
+go to Manage Jenkins - Manage Nodes and Clouds - Permanent Agent and configure it as it should. (ip adress can be found in AWS console). ADD MORE TAGS!! They will be good in furure, believe me lol
 
 ---
 
@@ -142,7 +142,7 @@ go to Manage Jenkins - Manage Plugins - Available and install NodeJS plugin
 
 go to Manage Jenkins - Global Tool Configuration - NodeJS 
 
-
+name it like "uglify-js & clean-css-cli" and in the section Global npm packages to install write down this: "clean-css-cli uglify-js"
 
 ---
 
@@ -164,14 +164,18 @@ mkdir -p /home/usr/material-design-template/KutsVitali
 
 It has been done already in WA1
 
-```bash
+### Write Jenkinsfile which describes declarative pipeline 
+It can be found here: https://github.com/W1ckedS1ck/material-design-template/blob/master/Jenkinsfile
 
-cd ~
-
-git clone git@github.com:W1ckedS1ck/material-design-template.git  
-
-```
+Archive file you can find here:
+ubuntu@ip-172-31-11-225:~/workspace/Pipe1ine/arc.tar.gz (slave device) 
+http://3.249.115.12:8081/job/Pipe1ine/22/artifact/ (Jenkins WebInterface)
 
 ---
 
 ## **5.Setup the GitHub webhook to trigger the jobs - 2**
+go here https://github.com/W1ckedS1ck/material-design-template/settings/hooks and add webhook http://3.249.115.12:8081/ Just the push event.
+then go to the settings of your project
+settings should be like:
+GitHub project - https://github.com/W1ckedS1ck/material-design-template.git 
+checkbox it - GitHub hook trigger for GITScm polling
