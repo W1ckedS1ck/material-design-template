@@ -12,7 +12,7 @@ pipeline {
             steps{
              git url: "https://github.com/W1ckedS1ck/material-design-template"
              sh "git --version"
-             sh "node -v"
+             sh "npm list -g"
             }
         }
         stage("Compress"){
