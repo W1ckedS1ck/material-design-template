@@ -1,0 +1,25 @@
+Polling Log
+View as plain text
+This page captures the polling log that triggered this build.
+
+Started on Oct 17, 2021 6:02:41 PM
+Started by event from 140.82.115.123 ⇒ http://3.249.115.12:8081/github-webhook/ on Sun Oct 17 18:02:41 UTC 2021
+Polling SCM changes on Slave node
+Using strategy: Default
+[poll] Last Built Revision: Revision 9c0537c14187f48fac4bf13c0330c8910a577b49 (origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/node --version/.git # timeout=10
+Fetching changes from the remote Git repositories
+ > git config remote.origin.url https://github.com/W1ckedS1ck/material-design-template.git/ # timeout=10
+Fetching upstream changes from https://github.com/W1ckedS1ck/material-design-template.git/
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/W1ckedS1ck/material-design-template.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+Polling for changes in
+Seen branch in repository origin/master
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+ > git log --full-history --no-abbrev --format=raw -M -m 9c0537c14187f48fac4bf13c0330c8910a577b49..929b349fea85897418b8a031af6659a3f549165b # timeout=10
+Done. Took 0.51 sec
+Changes found
