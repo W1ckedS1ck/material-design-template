@@ -198,3 +198,5 @@ Started by GitHub push by W1ckedS1ck
 Repository: https://github.com/W1ckedS1ck/material-design-template.git/
 origin/master
 ```
+
+Polling Log - https://github.com/W1ckedS1ck/material-design-template/blob/master/Week2_CICD_tools/Polling%20Log.txt
