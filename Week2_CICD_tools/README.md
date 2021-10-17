@@ -174,9 +174,18 @@ http://3.249.115.12:8081/job/Pipe1ine/22/artifact/ (Jenkins WebInterface)
 ---
 
 ## **5.Setup the GitHub webhook to trigger the jobs - 2**
-go here https://github.com/W1ckedS1ck/material-design-template/settings/hooks and add webhook http://3.249.115.12:8081/ Just the push event.
+go here https://github.com/W1ckedS1ck/material-design-template/settings/hooks and add webhook http://3.249.115.12:8081/github-webhook/ Just the push event.
 then go to the settings of your project
 settings should be like:
 GitHub project - https://github.com/W1ckedS1ck/material-design-template.git 
 checkbox it - GitHub hook trigger for GITScm polling
 
+The result of pushing will be 
+```bash
+ Build #1 (17-Oct-2021 17:19:45)
+ Started by GitHub push by W1ckedS1ck
+ Revision: 43dea8a65b53e029245dc2b43f33e15eef0ee078
+ Repository: https://github.com/W1ckedS1ck/material-design-template.git/
+ origin/master
+ ```
+ 
