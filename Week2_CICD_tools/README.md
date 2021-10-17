@@ -193,9 +193,7 @@ The result of pushing will be
  Build #3 (17-Oct-2021 17:23:45)
 	Changes
 Update README.md (commit: 3578ed6) (details / githubweb)
-	
 Started by GitHub push by W1ckedS1ck
-
 	Revision: 3578ed65d1eff86c40880cab9b12e2478eaed1a1
 Repository: https://github.com/W1ckedS1ck/material-design-template.git/
 origin/master
