@@ -190,5 +190,3 @@ Success
 [Pipeline] // node
 [Pipeline] End of Pipeline
 Finished: SUCCESS
-REST API
-Jenkins 2.303.2
