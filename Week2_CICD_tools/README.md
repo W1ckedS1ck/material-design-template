@@ -179,3 +179,5 @@ then go to the settings of your project
 settings should be like:
 GitHub project - https://github.com/W1ckedS1ck/material-design-template.git 
 checkbox it - GitHub hook trigger for GITScm polling
+
+
