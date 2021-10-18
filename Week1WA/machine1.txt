@@ -1,0 +1,26 @@
+
+cd~
+apt-get update
+apt-get install -y git
+apt-get install -y nginx
+sudo nginx -t
+git --version
+
+#How can I import my public key into GitHub??
+
+git clone git@github.com:W1ckedS1ck/material-design-template.git
+git config --global user.name "Vitali Kuts"
+git config --global user.email "VitaliK@playtika.com"
+git config --global --list
+
+crontab -e
+
+##* * * * * cd /home/usr/material-design-template ; git pull origin master
+##* * * * * cd /home/usr/Desktop ; date >> file.log
+
+crontab -l
+
+sudo nginx -t
+systemctl restart nginx
+
+grep CRON /var/log/syslog > cronlog.txt

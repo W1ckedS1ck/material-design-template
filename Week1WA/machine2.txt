@@ -1,0 +1,9 @@
+# This VM has been attached to the github account
+
+git clone git@github.com:W1ckedS1ck/material-design-template.git
+cd /home/usr/material-design-template/www
+
+# change index.html
+
+git add .
+git commit -m

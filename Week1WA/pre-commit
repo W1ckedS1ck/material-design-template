@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#git diff --cached > /home/usr/Desktop/hook.log
+git diff --cached > hook.log
+if cat hook.log | grep shit
+then
+echo "Shit-word isn't allowed"
+rm hook.log
+exit 1
+fi
