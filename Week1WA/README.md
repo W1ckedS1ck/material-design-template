@@ -16,7 +16,7 @@ git --version
   
                         GIT CONFIGURATION.  
 git config --global user.name "Vitali Kuts"  
-git config --global user.email "VitaliK@playtika.com"  
+git config --global user.email "VitaliK@playtika.com"   
 git config --global --list  
 git clone git@github.com:W1ckedS1ck/material-design-template.git  
   
